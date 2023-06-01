@@ -1,0 +1,43 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+
+div.container {
+    display: block;
+    margin: 200px auto;
+    width: 500px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px; 
+}
+
+
+label {
+  padding: 20px;
+  display: inline-block;
+  width: 200px;
+  text-align: left;
+}
+
+
+input {
+ padding: 10px;
+ text-align: right;
+ border: none;
+}
+
+
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance:textfield;
+}
+
+
